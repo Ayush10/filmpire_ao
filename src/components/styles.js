@@ -13,3 +13,28 @@ export default makeStyles(() => ({
     padding: "2em",
   },
 }));
+
+// export default function useStyles() {
+//   return (
+//     <Box
+//       sx={{
+//         display: "flex",
+//         height: "100%",
+//       }}
+//     >
+//       <Box
+//         component="div"
+//         sx={{
+//           height: "70px",
+//         }}
+//       ></Box>
+//       <Box
+//         component="main"
+//         sx={{
+//           flexGrow: 1,
+//           padding: "2em",
+//         }}
+//       ></Box>
+//     </Box>
+//   );
+// }
